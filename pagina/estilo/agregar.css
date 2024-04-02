@@ -1,0 +1,43 @@
+/* Estilos para la tabla */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Color de fondo de la tabla */
+    border: 2px solid #3498db; /* Borde de la tabla */
+    
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla th, .tabla td {
+    border: 1px solid #3498db; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Estilos para las celdas del encabezado de la tabla */
+.tabla th {
+    background-color: #3498db; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+}
+
+.fondo-gris {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.contenedor-tabla {
+    margin-bottom: 1300px;
+    /*margin-top: -1000px;*/
+    width: 80%; /* Ancho del contenedor de la tabla */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    padding: 20px; /* Espaciado interior */
+    background-color: white; /* Color de fondo blanco */
+}
+
+.tabla {
+    width: 100%; /* La tabla ocupará todo el ancho del contenedor principal */
+    max-width: 400px; /* Ancho máximo de la tabla */
+    /* Otros estilos de la tabla */
+}

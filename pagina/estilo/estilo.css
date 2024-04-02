@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2dbdd;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2%; /*  movera la imagen para lado izquierda*/
+    padding-right: 5%;
+    font-weight: bold;
+    height: 100px;
+     background-color: #FFFFFF;
+
+}
+h2{
+  padding-right: 70%;
+  
+}
+.txtCerrar{
+    color: rgb(245, 147, 0);
+    text-decoration: none;
+
+}
+
+.logo{
+  
+    width: 60px;
+
+}
+
+/*  top: 0; baje el bloque*/
+   /* left: 0; de un espacio */
+
+
+.sidebar {
+    height: 100vh; /* hara que siempre este al 100 en cualquier ventana*/
+    width: 270px;
+    position: relative;
+    background-color: #ffffff;
+    padding-top: 30px; /* las letras con el cuadro espacio*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra de color negro con desplazamiento 0, 0 y un radio de desenfoque de 10px */
+
+}
+
+.sidebar .menu-item ul{
+  list-style: none; 
+}
+
+
+  .sidebar .menu-item ul li a{
+    padding: 18px;
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    color: rgb(95, 93, 93);
+    transition: 0.3s;
+    
+  }
+  
+  .sidebar li:hover {
+    background-color: #32b4d4;
+  }
+  
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
