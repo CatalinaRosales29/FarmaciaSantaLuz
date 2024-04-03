@@ -1,0 +1,77 @@
+.cuadrado {
+ text-align: center;
+}
+
+.nav-segundo {
+    background-color: #ffffff;
+    width: 80%;
+    height: 60px;
+    text-align: center; /* Para centrar horizontalmente el texto */
+    color : rgba(92, 88, 88, 1); /* Color del texto */
+    padding: 20px; /* Espaciado */
+    margin-left: 20%;
+    margin-top: -599px;
+}
+.container {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+}
+
+
+.txtTiltle{
+    text-align:left;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-column {
+    flex-basis: 45%; /* Establece el ancho de las columnas del formulario */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Jaldi", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #34d81f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1173e4;
+}

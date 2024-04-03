@@ -1,0 +1,51 @@
+/* Estilos para la tabla */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Color de fondo de la tabla */
+    border: 2px solid #3498db; /* Borde de la tabla */
+    
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla th, .tabla td {
+    border: 1px solid #3498db; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Estilos para las celdas del encabezado de la tabla */
+.tabla th {
+    background-color: #3498db; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+}
+
+
+
+.tabla {
+    width: 100%;
+    max-width: 400px;
+    background-color: #b33b3b;
+    border-collapse: collapse;
+    border: 2px solid #3498db;
+   
+}
+
+.moviendo{
+    justify-content: center !important;
+    text-align: center;
+}
+
+
+/*margin-top: -1000px;*/
+/* Ancho del contenedor de la tabla */
+.contenedor-tabla {
+  
+    
+    width: 74%;
+    margin-left: 300px;
+    
+    margin-top: -600px;
+    height:100vh; 
+    background-color: #ffffff; 
+  } 
