@@ -25,7 +25,7 @@
 .tabla {
     width: 100%;
     max-width: 400px;
-    background-color: #b33b3b;
+    background-color: #f1ecec;
     border-collapse: collapse;
     border: 2px solid #3498db;
    
@@ -34,18 +34,14 @@
 .moviendo{
     justify-content: center !important;
     text-align: center;
+   
+}
+.contenedor-tabla{
+    float: right;
+    margin-right: 20%;
+    margin-top: -30%;
 }
 
 
 /*margin-top: -1000px;*/
 /* Ancho del contenedor de la tabla */
-.contenedor-tabla {
-  
-    
-    width: 74%;
-    margin-left: 300px;
-    
-    margin-top: -600px;
-    height:100vh; 
-    background-color: #ffffff; 
-  } 

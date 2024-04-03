@@ -22,7 +22,7 @@
             <div class="menu-item2">
                 <i class="fa-solid fa-pen" style= "color: rgba(92, 88, 88, 1);"></i>
                     <ul>
-                        <li><a href="notas.php">Notas</a></li>
+                        <li><a class ="d" href="notas.php" >Notas</a></li>
                     </ul>
             </div>
           

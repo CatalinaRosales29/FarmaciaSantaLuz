@@ -1,0 +1,84 @@
+.cuadrado {
+    text-align: center;
+   }
+   
+   .nav-segundo {
+       background-color: #ffffff;
+       width: 80%;
+       height: 60px;
+       text-align: center; /* Para centrar horizontalmente el texto */
+       color : rgba(92, 88, 88, 1); /* Color del texto */
+       padding: 20px; /* Espaciado */
+       margin-left: 20%;
+       margin-top: -599px;
+   }
+   .container {
+       width: 50%;
+       background-color: #ffffff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+       margin: 20px auto; /* Centra el contenedor horizontalmente */
+       height: 70%;
+   }
+   
+   
+   .txtTiltle{
+       text-align:left;
+       padding-bottom: 30px;
+       font-size: 20px;
+       font-family: "Kumbh Sans", sans-serif;
+   
+   }
+   
+   .form-container {
+       display: flex;
+       justify-content: space-between;
+   
+   }
+  
+   .form-column {
+       flex-basis: 45%; /* Establece el ancho de las columnas del formulario */
+   }
+   
+   .form-group {
+       margin-bottom: 20px;/* espacio del input con los formularios */
+   }
+   
+   label {
+       display: block;
+       margin-bottom: 5px;
+       font-family: "Jaldi", sans-serif;
+   }
+   
+   input[type="text"]{
+       width: 222%;
+       padding: 10px;
+       border: 1px solid rgba(229, 227, 227, 1);
+       background-color: rgba(229, 227, 227, 1);
+       border-radius: 4px;
+       box-sizing: border-box;
+   }
+
+   .btn-group{
+    display: flex;
+   }
+   
+/* Estilos para el botón de enviar y limpiar */
+.btnEnviar,
+.btnLimpiar {
+    background-color: #1173e4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: calc(50% - 10px); /* Ajusta el ancho para que sea el 50% del contenedor con un pequeño espacio */
+    margin-right: 10px; /* Añade un pequeño espacio entre los botones */
+}
+
+/* Estilos para el hover en los botones */
+.btnEnviar:hover,
+.btnLimpiar:hover {
+    background-color: #34d81f;
+}

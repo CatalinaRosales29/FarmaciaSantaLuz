@@ -25,7 +25,9 @@
 .txtTiltle{
     text-align:left;
     padding-bottom: 30px;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+
 }
 
 .form-container {
@@ -53,7 +55,8 @@ input[type="email"],
 input[type="tel"]{
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(229, 227, 227, 1);
+    background-color: rgba(229, 227, 227, 1);
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -63,7 +66,7 @@ textarea {
 }
 
 button {
-    background-color: #34d81f;
+    background-color: #1173e4;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -73,5 +76,5 @@ button {
 }
 
 button:hover {
-    background-color: #1173e4;
+    background-color: #34d81f;
 }
